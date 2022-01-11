@@ -13,7 +13,7 @@ const Navbar = () => {
             to={"/"}
             className="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto"
           >
-            <img src={Logo} alt="radiohead" className="home-logo" />
+            <img src={Logo} alt="radiohead" className="radiohead" />
           </Link>
           <button
             className="navbar-toggler align-self-start hidden-sm-up float-xs-right"
@@ -32,23 +32,34 @@ const Navbar = () => {
           <div id="navbarNavDropdown" className="navbar-collapse collapse">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-btn1" to="/contact">
-                  Contact Sales
-                </Link>
+                <a className="nav-btn1" href="/contact">
+                  Contact
+                </a>
               </li>
               <br />
               <li className="nav-item">
-                <Link className="nav-btn1" to="/login">
-                  Log In
+                <a className="nav-btn1" href="/login">
+                  Plan
+                </a>
+              </li>
+              <br />
+              <li className="nav-item">
+                <a className="nav-btn1" href="/login">
+                  Blog
+                </a>
+              </li>
+              <br />
+              <li className="nav-item">
+                <Link className="nav-btn" to="/">
+                  Sign In
                 </Link>
               </li>
               <br />
               <li className="nav-item">
                 <Link className="nav-btn" to="/">
-                  Try for Free{" "}
+                  Sign Up
                 </Link>
               </li>
-              <br />
             </ul>
           </div>
         </nav>
