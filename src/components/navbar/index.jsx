@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/radio-logo.svg";
 
+import "./navbar.scss";
+
 const Navbar = () => {
   return (
-    <section className="nav-section">
+    <section className="nav__section">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light nav-bg justify-content-sm-start fixed-top">
           <Link
