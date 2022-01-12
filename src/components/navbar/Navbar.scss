@@ -1,6 +1,126 @@
 @import "../../styles/variables";
 
 .nav__section {
-    background: $primaryColor;
+    padding: 5px;
+
+    .navbar {
+        padding: 20px 100px !important;
+        background: $primaryColor;
+
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            .navbar {
+                padding: 10px !important;
+            }
+        }
+    }
+
+    .navbar-brand {
+        padding: 0px, 0px !important;
+    }
+      
+    .navbar-nav .nav-item {
+          padding-right:20px;
+    }
+
+    .radiohead {
+        width: 236px;
+        height: 20px;
+
+        @media only screen and (max-width:1024px) {
+            .radiohead {
+                width: 150px;
+                height: 15px;
+            }
+        }
+    }
+
+    .navbar-toggler {
+        width: 47px;
+        border:none;
+    }
+      
+    .navbar-toggler .line{
+          float: left;
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          margin-bottom: 5px;
+    }
+
+    .navbar-nav .nav-item .header__link {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.218182px;
+        color: $whiteTextColor;
+        text-decoration: none;
+        transition: .3s cubic-bezier(0.13, 0.38, 0.45, 0.94);
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .navbar-nav .nav-item .header__link {
+            font-size: 12px; 
+            line-height: 12px;
+        }
+    }
+
+    .navbar-nav .nav-item .header__link-btn {
+        background: $primaryButton;
+        border-radius: 4px;
+        color: $primaryButtonTextColor;
+        font-family: $font-family;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: .02em;
+        padding: 10px 30px;
+        max-width: 166px;
+        text-decoration: none;
+    }
+
+    .navbar-nav .nav-item .header__link-btn-border {
+        background: none;
+        border-radius: 4px;
+        border: 1px solid $primaryLineColor;
+        color: $secondaryTextColor;
+        font-family: $font-family;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: .02em;
+        padding: 10px 30px;
+        max-width: 166px;
+        text-decoration: none;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .navbar-collapse {
+            position: absolute;
+            top: 54px;
+            left: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            width: 100%;
+            background: linear-gradient(90deg, #0353A4 0%, #023E7D 100%);
+        }
+        .navbar-collapse.collapsing {
+            height: auto;
+            -webkit-transition: left 0.3s ease;
+            -o-transition: left 0.3s ease;
+            -moz-transition: left 0.3s ease;
+            transition: left 0.3s ease;
+            left: -100%;
+        }
+        .navbar-collapse.show {
+            left: 0;
+            -webkit-transition: left 0.3s ease-in;
+            -o-transition: left 0.3s ease-in;
+            -moz-transition: left 0.3s ease-in;
+            transition: left 0.3s ease-in;
+        }
+    }
 
 }

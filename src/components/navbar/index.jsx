@@ -32,31 +32,31 @@ const Navbar = () => {
           <div id="navbarNavDropdown" className="navbar-collapse collapse">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-btn1" href="/contact">
+                <a className="header__link" href=".">
                   Contact
                 </a>
               </li>
               <br />
               <li className="nav-item">
-                <a className="nav-btn1" href="/login">
+                <a className="header__link" href=".">
                   Plan
                 </a>
               </li>
               <br />
               <li className="nav-item">
-                <a className="nav-btn1" href="/login">
+                <a className="header__link" href=".">
                   Blog
                 </a>
               </li>
               <br />
               <li className="nav-item">
-                <Link className="nav-btn" to="/">
+                <Link className="header__link-btn" to=".">
                   Sign In
                 </Link>
               </li>
               <br />
               <li className="nav-item">
-                <Link className="nav-btn" to="/">
+                <Link className="header__link-btn-border" to=".">
                   Sign Up
                 </Link>
               </li>
