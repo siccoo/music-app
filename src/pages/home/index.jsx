@@ -16,7 +16,18 @@ const Home = () => {
             <section>
                 <Navbar />
             </section>
-            
+
+            <section className='home__header'>
+                <div className='header__content__wrap'>
+                    <div className='header__text'>
+
+                    </div>
+                    <div className='header__image'>
+
+                    </div>
+                </div>
+            </section>
+
             {/* BRANDS SECTION */}
             <section className='home__brands'>
                 <div className='container'>

@@ -1,5 +1,12 @@
 @import "../../styles/variables";
 
+// HOME HEADER SECTION
+.home__header {
+    background: $secondaryColor;
+    height: 90vh;
+}
+
+// BRANDS SECTION
 .home__brands {
     background: $primaryColor;
     padding: 10px 0;
@@ -15,7 +22,7 @@
         margin-top: 2rem;
 
         li {
-            padding: 1rem;
+            padding: 0.9rem;
         }
 
         img {
