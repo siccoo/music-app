@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.home__brands {
+    background: $primaryColor;
+    padding: 10px 0;
+
+    ul {
+        list-style: none;
+    }
+
+    .brand__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 2rem;
+
+        li {
+            padding: 1rem;
+        }
+
+        img {
+            width: 82px;
+        }
+    }
+}
