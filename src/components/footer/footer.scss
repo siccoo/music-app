@@ -23,9 +23,49 @@
         line-height: 32px; 
         color: $grayishWhite;
     }
+
+    ul {
+        li {
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px; 
+            line-height: 26px;
+            color: $whiteTextColor;
+        }
+    }
 }
 
 .footer__section__dark {
     background: $secondaryColor;
     // padding: ;
+
+    a {  
+        color: #ffffff;  
+        text-decoration: none !important;  
+        background-color: transparent;  
+    }  
+    ul.social li {  
+        padding: 3px 0; 
+        
+        a i {  
+            margin-right: 25px;  
+            font-size: 25px; 
+
+            -webkit-transition: .5s all ease;  
+            -moz-transition: .5s all ease;  
+            transition: .5s all ease;  
+        }
+    }  
+      
+    ul.social li:hover a i {  
+        font-size:30px;  
+        margin-top: -10px;  
+    }  
+    ul.social li a  {  
+        color:#ffffff;  
+    }  
+    ul.social li a:hover {  
+        color:#eeeeee;  
+    }  
 }

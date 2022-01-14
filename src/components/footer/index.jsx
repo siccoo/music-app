@@ -63,13 +63,13 @@ const Footer = () => {
       </section>
       <section className="footer__section__dark">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <div class="col-xs-12 col-sm-12 col-md-12 m-2">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
                 {" "}
                 <a href="#">
                   {" "}
-                  <i class="fa fa-facebook"> </i>{" "}
+                  <i class="fa fa-instagram"> </i>{" "}
                 </a>{" "}
               </li>
               <li class="list-inline-item">
@@ -83,21 +83,7 @@ const Footer = () => {
                 {" "}
                 <a href="#">
                   {" "}
-                  <i class="fa fa-instagram"> </i>{" "}
-                </a>{" "}
-              </li>
-              <li class="list-inline-item">
-                {" "}
-                <a href="#">
-                  {" "}
-                  <i class="fa fa-google-plus"> </i>{" "}
-                </a>{" "}
-              </li>
-              <li class="list-inline-item">
-                {" "}
-                <a href="#">
-                  {" "}
-                  <i class="fa fa-envelope"> </i>{" "}
+                  <i class="fa fa-facebook"> </i>{" "}
                 </a>{" "}
               </li>
             </ul>
