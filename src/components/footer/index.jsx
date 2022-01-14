@@ -14,6 +14,14 @@ const Footer = () => {
               <img src={Logo} alt="radiohead" />
             </div>
           </div>
+          <div>
+              <div className="col-md-3"></div>
+              <div className="col-md-1"></div>
+              <div className="col-md-2"></div>
+              <div className="col-md-2"></div>
+              <div className="col-md-2"></div>
+              <div className="col-md-2"></div>
+          </div>
         </div>
       </section>
       <section className="footer__section__dark">

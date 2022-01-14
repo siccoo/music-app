@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.playlist {
+    background: $secondaryColor;
+    box-shadow: inset 0px 30px 20px #1a1a1a40;
+    padding: 70px 0;
+
+    h5 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 52px;
+        color: $whiteTextColor;
+        margin-top: 120px;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: $whiteTextFadedColor; 
+        margin-bottom: 2em;
+    }
+
+    span {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 20px;
+        color: $secondaryTextColor;
+
+        .playlist-arrow {
+            width: 20px;
+        }
+    }
+
+    .playlist-image {
+        
+        img {
+            width: 100%;
+            border: 2px solid $blackFadedColor;
+            border-radius: 6px;
+            box-shadow: 10px 10px 10px $blackFadedColor;
+        }
+    }
+}
