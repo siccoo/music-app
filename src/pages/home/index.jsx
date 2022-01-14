@@ -30,7 +30,10 @@ const Home = () => {
                   Try it free
                 </a>
                 <div className="btn-wrap">
-                  <img src="" alt="" />
+                  <img src={AppStore} alt="appstore" />
+                  <span>
+                      <img src={GooglePlay} alt="googleplay" />
+                  </span>
                 </div>
             </div>
             <div className="header__image">
