@@ -4,9 +4,9 @@ import "./why.scss"
 
 const Why = () => {
     return (
-        <div>
-            Why
-        </div>
+        <section className="why__section">
+
+        </section>
     )
 }
 
