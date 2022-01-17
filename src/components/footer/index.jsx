@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <div className="col-md-1"></div>
             <div className="col-md-2">
-              <div className="footer__head">Get Started</div>
+              <div className="footer__head">Get Started33</div>
               <ul>
                 <li>Get Started</li>
                 <li>Playlist Import</li>
