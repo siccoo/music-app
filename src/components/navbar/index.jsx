@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/radio-logo.svg";
 
-import "./Navbar.scss";
+import "./navbar.scss";
 
 const Navbar = () => {
   return (
